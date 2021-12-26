@@ -1,0 +1,27 @@
+.App {
+  direction: rtl;
+  font-family: "El Messiri", sans-serif;
+  min-height: 100vh;
+  overflow: hidden;
+
+  background: linear-gradient(
+      to left,
+      #080226,
+      #1e1e1e,
+      #38bcf9,
+      #1a1a1a,
+      transparent
+    ),
+    linear-gradient(to right, #080226, #1e1e1e, #38bcf9, #000000, transparent);
+  background: radial-gradient(#0991e1, #1e384a);
+}
+::placeholder {
+  color: #aac8d9;
+}
+input:focus {
+  outline: none;
+}
+button,
+input {
+  font-family: "El Messiri", sans-serif;
+}
